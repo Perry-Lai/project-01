@@ -2,6 +2,7 @@
 #include <stdlib.h>//
 #include <pthread.h>//
 #include <semaphore.h>//
+#include <math.h>
 int ppow(int ax, int nc){ //
 	int a = 1;for(int i = 0; i < nc; i++){//
       a *= ax;//
